@@ -28,7 +28,7 @@ def ngontol():
 		open("checkpoint.txt","w").close()
 	if os.path.exists("hasil.txt"):
 		if os.path.getsize("hasil.txt") !=0:
-			cek=raw_input('%s[!]%s file exists: %smultiresult.txt%s\n%s[?]%s replace? y/n): '%(R,N,B,N,R,N)).lower()
+			cek=raw_input('%s[!]%s file exists: %shasil.txt%s\n%s[?]%s replace? y/n): '%(R,N,B,N,R,N)).lower()
 			if cek == "y":
 				open("hasil.txt","w").close()
 		else:
